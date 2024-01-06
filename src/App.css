@@ -1,1 +1,21 @@
 /* add your styles here */
+h1 {
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  
+#images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 16px; 
+    justify-content: center; 
+    margin-top: 20px; 
+  }
+  
+  img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    border-radius: 8px; 
+  }
+  
